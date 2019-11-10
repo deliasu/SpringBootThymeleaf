@@ -1,4 +1,4 @@
 # SpringBootThymeleaf
 Spring Boot Thymleaf
-#visit
+# visit
 https://csdcodes.net/spring-mvc/spring-boot-thymeleaf/
