@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8"/>
     <title>springboot-thymeleaf demo</title>
+    <link rel="stylesheet" href="webjars/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
 
-<p th:text="'hello, ' + ${name} + '!'" >Hello Spring-boot-thymeleaf</p>
+<div class="alert alert-primary">
+        <strong>Spring Boot Thymeleaf </strong> example - csdcodes.net.
+</div>
+<div class="container">
+    <p th:text="'Hello, ' + ${name} + '!'" >Hello Spring-boot-thymeleaf</p><br/>
+    <hr/>
+    <p style="text-align: center">&copy;csdcodes.net</p>
+</div>
 </body>
 </html>
